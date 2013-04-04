@@ -55,6 +55,9 @@
 #uncomment to run the redis recipe
 require_recipe "redis"
 
+#require the sidekiq recipe
+require_recipe "sidekiq"
+
 #uncomment to run the api-keys-yml recipe
 # require_recipe "api-keys-yml"
 
